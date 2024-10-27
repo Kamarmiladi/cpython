@@ -1,0 +1,143 @@
+
+SyntaxError: unterminated string literal (detected at line 1)
+>>> penup()
+Traceback (most recent call last):
+  File "<python-input-4>", line 1, in <module>
+    penup()
+    ^^^^^
+NameError: name 'penup' is not defined
+>>> goto(- 50y:60)
+  File "<python-input-5>", line 1
+    goto(- 50y:60)
+            ^
+SyntaxError: invalid decimal literal
+>>> penudown()
+Traceback (most recent call last):
+  File "<python-input-6>", line 1, in <module>
+    penudown()
+    ^^^^^^^^
+NameError: name 'penudown' is not defined
+>>> color("blue")
+Traceback (most recent call last):
+  File "<python-input-7>", line 1, in <module>
+    color("blue")
+    ^^^^^
+NameError: name 'color' is not defined
+>>> begin_fill()
+Traceback (most recent call last):
+  File "<python-input-8>", line 1, in <module>
+    begin_fill()
+    ^^^^^^^^^^
+NameError: name 'begin_fill' is not defined
+>>> goto(x:100, y:100)
+  File "<python-input-9>", line 1
+    goto(x:100, y:100)
+          ^
+SyntaxError: invalid syntax
+>>> goto(x:100, -100)
+  File "<python-input-10>", line 1
+    goto(x:100, -100)
+          ^
+SyntaxError: invalid syntax
+>>>
+>>> # Drawing the Windows
+>>> goto - 50 - 60)
+  File "<python-input-13>", line 1
+    goto - 50 - 60)
+                  ^
+SyntaxError: unmatched ')'
+>>> goto( - 50, y:60)
+  File "<python-input-14>", line 1
+    goto( - 50, y:60)
+                 ^
+SyntaxError: invalid syntax
+>>> end_fill()
+Traceback (most recent call last):
+  File "<python-input-15>", line 1, in <module>
+    end_fill()
+    ^^^^^^^^
+NameError: name 'end_fill' is not defined
+>>> color("black")
+Traceback (most recent call last):
+  File "<python-input-16>", line 1, in <module>
+    color("black")
+    ^^^^^
+NameError: name 'color' is not defined
+>>> goto(15)
+Traceback (most recent call last):
+  File "<python-input-17>", line 1, in <module>
+    goto(15)
+    ^^^^
+NameError: name 'goto' is not defined
+>>>
+>>> # cut 2 equal parts
+>>> color("Black")
+Traceback (most recent call last):
+  File "<python-input-20>", line 1, in <module>
+    color("Black")
+    ^^^^^
+NameError: name 'color' is not defined
+>>> width(10)
+Traceback (most recent call last):
+  File "<python-input-21>", line 1, in <module>
+    width(10)
+    ^^^^^
+NameError: name 'width' is not defined
+>>> goto(15, -100)
+Traceback (most recent call last):
+  File "<python-input-22>", line 1, in <module>
+    goto(15, -100)
+    ^^^^
+NameError: name 'goto' is not defined
+>>> penup()
+Traceback (most recent call last):
+  File "<python-input-23>", line 1, in <module>
+    penup()
+    ^^^^^
+NameError: name 'penup' is not defined
+>>> goto(- 100, y:0)
+  File "<python-input-24>", line 1
+    goto(- 100, y:0)
+                 ^
+SyntaxError: invalid syntax
+>>> pentdown()
+Traceback (most recent call last):
+  File "<python-input-25>", line 1, in <module>
+    pentdown()
+    ^^^^^^^^
+NameError: name 'pentdown' is not defined
+>>> goto(- 100, y:0)
+  File "<python-input-26>", line 1
+    goto(- 100, y:0)
+                 ^
+SyntaxError: invalid syntax
+>>>
+>>> done()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
